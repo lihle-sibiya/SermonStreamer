@@ -42,7 +42,7 @@ const EventList = () => {
             <img 
               src={`${baseUrl}${event.Image}`} 
               alt={event.Title} 
-              onError={handleError} // Set error handler
+              onError={handleError} // Error handling
               style={{ maxWidth: '100%', height: 'auto' }} 
             />
             <audio controls>

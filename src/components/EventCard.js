@@ -4,7 +4,7 @@ const EventCard = ({ event }) => {
   const imageUrl = `https://arthurfrost.qflo.co.za/Images/${event.image}`;
   const audioUrl = `https://arthurfrost.qflo.co.za/MP3/${event.audio}`;
 
-  // Assuming the event object has a 'duration' field (in seconds)
+  //Duration field in seconds
   const formatDuration = (duration) => {
     const minutes = Math.floor(duration / 60);
     const seconds = Math.floor(duration % 60);
@@ -19,7 +19,7 @@ const EventCard = ({ event }) => {
         src={imageUrl}
         alt={event.title}
         className="w-full h-48 object-cover rounded-lg my-2"
-        onError={(e) => { e.target.src = 'placeholder.png'; }} // Use a placeholder image if there is an error
+        onError={(e) => { e.target.src = 'placeholder.png'; }} //Placeholder image incase there is an error
       />
       <audio controls>
         <source src={audioUrl} type="audio/mpeg" />
