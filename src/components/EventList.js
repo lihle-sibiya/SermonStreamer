@@ -32,7 +32,7 @@ const EventList = () => {
 
   return (
     <div>
-      <h1>Event List</h1>
+      <h1>Sermon List</h1>
       <ul>
         {events.map((event, index) => (
           <li key={index}>
