@@ -1,7 +1,7 @@
-# TimelineApp
+# Sermon Streamer
 
 ## Description
-A single-page React application that retrieves and displays content from a JSON API. This project aims to showcase how to work with React for fetching data and rendering it in a user-friendly interface.
+Sermon Streamer is a single-page React application that retrieves and displays sermon content from a JSON API. The project showcases how to work with React for fetching data and rendering it in a user-friendly interface, allowing users to easily access audio sermons along with relevant images and titles.
 
 
 ## Technologies Used
@@ -14,24 +14,26 @@ A single-page React application that retrieves and displays content from a JSON 
    git clone https://github.com/lihle-sibiya/TimelineApp.git
    cd TimelineApp
 
-2. Install dependencies:
+## Install dependencies:
    npm install
 
-3. Running the Application
+## Running the Application
 To start the application, run: npm start
 
-4. API Integration
+## API Integration
 This app fetches data from the following API:[JSON API] (https://arthurfrost.qflo.co.za/php/getTimeline.php)
 
 
-5. Future Enhancements
+## Future Enhancements
 In future versions, this project could be expanded by integrating a backend using Node.js and MongoDB for additional data management. This would involve:
 
-Setting up an Express server to handle API requests.
-Using MongoDB to store additional user-generated data or records.
-Enhancing the frontend to interact with this backend for CRUD operations.
-Screenshots
+- Setting up an Express server to handle API requests.
+- Using MongoDB to store additional user-generated data or records.
+-  Enhancing the frontend to interact with this backend for CRUD operations.
 
-6. Author
+## Screenshots
+![Sermon Streamer Screenshot](./public/SermonStreamer.png)
+
+## Author
 Thembelihle Sibiya
 
